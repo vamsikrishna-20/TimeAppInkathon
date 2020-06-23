@@ -1,0 +1,34 @@
+<mvc:View controllerName="inc.trng.ZTimeAppInkathon.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}" class='loginPage' showHeader='false'  >
+				
+					<content>
+						<Toolbar class='sapUiSmallMargin loginToolbar'>
+							<Image  src='Incturewhite.png' width='10%'/>
+						</Toolbar>
+						 <VBox fitContainer="true" justifyContent="Center" alignItems="Center" >
+						 	<Text class='title' text='Sign In' ></Text>
+						 	<Text class='loginText' text='Sign in to the attendance portal' ></Text>
+						 	<Input class='inputLogin' width='18em' placeholder='Email address'/>
+						 	<Input class='inputLogin' width='18em' type='Password' placeholder='Password'/>
+					
+						 		<Toolbar  class='loginToolbar' >
+						 		<CheckBox class='loginText' text='Remember Me'/>
+						 		<ToolbarSpacer/>
+						 		<Text class='loginText' text='Forgot Password?'/>
+						 		</Toolbar>
+						 
+						 		<Text class='textNewAccount'  text='want to create a new account?'/>
+						 		<Button class='btnLogin' width='20em' text='Login'></Button>
+						 		<Text class='loginText'  text='or'/>
+						 		<Button class='btnLogin' width='20em' text='Sign In using Face ID'></Button>
+						 	
+						 </VBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

@@ -1,0 +1,44 @@
+/* Enter your custom styles here */
+.btnLogin .sapMBtnInner{
+	 
+	     background-color:#F3B61F;
+	     border-radius: 2rem;
+	     color:white;
+	   
+}
+.inputLogin .sapMInputBaseContentWrapper {
+	border-radius:2rem;
+	   outline:0;
+	
+}
+
+.loginText .sapMLabel{
+	color:white;
+	
+}
+
+.title{
+	font-size:2rem;
+	color:white;
+}
+.loginPage{
+	background-image: url("../Background.png");
+	background-repeat:no-repeat;
+   background-size: 100% 100%;
+    background-position:center;  
+    width:100%;
+   
+}
+.loginText {
+	color:white;
+}
+.textNewAccount{
+	color:#F3B61F;
+	padding-right:4.5rem;
+}
+
+.loginToolbar {
+	      border-bottom: solid .0625rem transparent;
+	      padding-right:2.5rem;
+	
+}
