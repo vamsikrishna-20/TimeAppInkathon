@@ -3,6 +3,7 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}" class='loginPage' showHeader='false'  >
+					<Text text='hello0/'/>
 				
 					<content>
 						<Toolbar class='sapUiSmallMargin loginToolbar'>
